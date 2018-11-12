@@ -1,0 +1,50 @@
+/*
+ * 面向对象的特征：1.封装性	2.继承性		3.多态性		4.抽象性
+ * 
+ * 封装性：对类中的属性设置私有private，这样就不能直接访问类中的私有对象
+ * 对类中的私有的属性进行方法的设置(set/get|属性名，首字母大写)
+ * 通过方法来进行对数据的访问，通过方法我们对设置者，数据进行安全控制。
+ */
+public class Teacher {
+
+//	老师姓名
+//	private 属性是私有的，保证数据的安全性
+	private String name;
+	
+//	老师年龄
+	private int age;
+	
+//	学校名称
+	static String sName;
+
+//	在java里面通过set和get方法来进行数据访问，提高数据访问的安全性,方法的访问修饰符都定义为public 公开 的
+
+//	设置值
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		
+		if (age>0 && age <=150) {
+//			this表示的是当前对象,谁调用这个方法，this就是谁
+			this.age = age;
+			
+		} else {
+			System.out.println("输入的内容不合法");
+		}
+		
+	}
+
+	
+	
+}

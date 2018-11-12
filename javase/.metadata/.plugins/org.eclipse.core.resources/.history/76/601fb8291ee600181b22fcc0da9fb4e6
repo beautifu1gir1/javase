@@ -1,0 +1,19 @@
+
+public class Emp {
+	
+//	员工姓名
+	String name;
+	
+//	员工年龄
+	int age;
+	
+//	公司名称
+	
+
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+}

@@ -1,0 +1,34 @@
+
+public class Teacher {
+
+//	老师姓名
+//	private 属性是私有的，保证数据的安全性
+	private String name;
+	
+//	老师年龄
+	private int age;
+	
+//	学校名称
+	static String sName;
+
+	
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	
+	
+}

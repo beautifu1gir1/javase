@@ -1,0 +1,18 @@
+
+public class StuName {
+	
+	//实例变量
+//	学生的姓名
+	String name;
+
+	public static void main(String[] args) {
+
+//		实例化对象
+		
+		StuName stu1 = new StuName();
+		
+		stu1.name = "孙";
+		
+	}
+
+}

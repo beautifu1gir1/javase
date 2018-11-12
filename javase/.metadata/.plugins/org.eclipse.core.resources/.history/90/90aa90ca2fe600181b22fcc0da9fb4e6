@@ -1,0 +1,12 @@
+
+public class Teacher {
+
+//	老师姓名
+	private String name;
+	
+//	老师年龄
+	private int age;
+	
+//	学校名称
+	static String sName;
+}
