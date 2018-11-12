@@ -1,12 +1,7 @@
 
 public class Test02 {
 
-/*
- * 静态变量和静态方法都属于整个类，所以我们把静态变量叫做类变量
- * 										把静态方法叫做类方法
- * 对静态方法和静态变量的访问机制
- * 类名.静态变量名(方法名)
- */
+
 	public static void main(String[] args) {
 
 //		Teacher t1 = new Teacher();

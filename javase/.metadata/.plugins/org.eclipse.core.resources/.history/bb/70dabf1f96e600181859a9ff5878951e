@@ -24,7 +24,6 @@ public class DB {
 	public DB(String name,int age){
 		
 //		this不能够在静态方法中使用
-//		构造函数作用：给类中的属性进行初始化赋值
 		this.name = name;
 		this.age = age;
 		
@@ -33,19 +32,13 @@ public class DB {
 	}
 	
 //	有返回值类型的方法，不叫构造方法或者构造函数
-//	实例方法，不是构造方法
+//	实例方法
 	int DB(){
 		
 		return 0;
 	}
 	
 	public static void main(String[] args) {
-/*
- * 一个类中如果没有提供任何的构造函数，Java编译器会隐式自动提供一个没有参数的构造函数给创建对象使用
- * 如果一个类中提供了构造函数，创建对象必须依赖这个构造函数
- * 
- * 如果一个类有多个构造函数，那么就给创建对象提供了多个访问机制
- */
 		
 //		调用构造函数DB() 	构造函数是被隐式的调用
 //		DB db = new DB();

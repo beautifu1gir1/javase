@@ -1,0 +1,29 @@
+/*
+ * 构造函数
+ * 1.构造函数的名称要和类名保持一致
+ * 2.不能有任何返回值的类型	(在方法前不能有int，String......)
+ * 3.可以有访问修饰符	(可以在方法前有public，private)
+ */
+public class DB {
+
+	String name;
+	int age;
+	
+	public DB(){
+		System.out.println("这是一个没有参数的构造方法");
+	}
+	
+	public DB(String name,int age){
+//		this不能够在静态方法中使用
+		this.name = name;
+		this.age = age;
+		
+	}
+	
+	public static void main(String[] args) {
+		
+//		调用构造函数DB() 	构造函数是被隐式的调用
+		DB db = new DB();
+	}
+	
+}

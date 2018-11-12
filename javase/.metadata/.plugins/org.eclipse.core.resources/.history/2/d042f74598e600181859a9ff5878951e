@@ -24,7 +24,6 @@ public class DB {
 	public DB(String name,int age){
 		
 //		this不能够在静态方法中使用
-//		构造函数作用：给类中的属性进行初始化赋值
 		this.name = name;
 		this.age = age;
 		
